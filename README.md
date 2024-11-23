@@ -34,11 +34,11 @@ This project is built with responsive design, semantic HTML, and JavaScript to c
 ### **Installation**
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/Sameeha0/CS4127_6003_A1.git
+   git clone https://github.com/Sameeha0/CS4127_6003_Assignment-1
    ```  
 2. Open the project folder:  
    ```bash
-   cd CS4127_6003_A1
+   cd CS4127_6003_Assignment-1
 
    ```  
 3. Launch `index.html` in your browser.  
