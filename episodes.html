@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles/episodes.css">
+  <title>Dolunay Website</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cast.html">Cast</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="videogallery.html">Video Gallery</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <h2>All Episodes</h2>
+    <div class="sort-options">
+      <i class="fas fa-sort"></i>
+      <select id="sortOrder" onchange="sortEpisodes()">
+        <option value="ascending">Ascending</option>
+        <option value="descending">Descending</option>
+      </select>
+    </div>
+    <div id="episodesContainer">
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="/javascript/episodes.js"></script>
+</body>
+</html>
